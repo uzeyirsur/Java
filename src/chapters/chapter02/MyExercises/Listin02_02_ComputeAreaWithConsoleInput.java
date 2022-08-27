@@ -9,7 +9,14 @@ public class Listin02_02_ComputeAreaWithConsoleInput {
 		System.out.print("Enter a number for radius: ");
 		double radius = input.nextDouble();
 		double area = radius * radius * 3.14159;
-		System.out.println("The area is " + area);
+		if (radius < 0) {
+			System.out.println("Incorrect input");
+		}
+		else {
+			area = radius * radius * 3.14159;
+			System.out.println("The area is " + (int) (area * 100) / 100.);
+		}
+	
 	}
 
 }

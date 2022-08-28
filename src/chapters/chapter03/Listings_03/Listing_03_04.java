@@ -16,10 +16,9 @@ public class Listing_03_04 {
 
 		double bmi = weight / Math.pow(height, 2) * 100;
 		System.out.println("BMI is " + (int) bmi * 1000 / 1000.);
-
 		if (bmi < 18.5) {
 			System.out.println("Underweight");
-		} else if (bmi < 25.0) {
+		} else if ( bmi == 18.5 && bmi < 25.0) {
 			System.out.println("Normal");
 
 		} else if (bmi < 30.0) {

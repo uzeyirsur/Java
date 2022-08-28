@@ -16,5 +16,7 @@ public class CheckPoint_03_16 {
 		} else
 			System.out.println(i);
 
+		i = (int)(Math.random() * 2);
+		System.out.println(i);
 	}
 }

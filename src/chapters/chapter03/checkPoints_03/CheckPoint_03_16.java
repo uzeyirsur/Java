@@ -15,5 +15,6 @@ public class CheckPoint_03_16 {
 
 		} else
 			System.out.println(i);
+
 	}
 }

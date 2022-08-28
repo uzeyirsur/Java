@@ -17,10 +17,10 @@ public class CheckPoint_03_08 {
 			if (y > 2) {
 				z = x + y;
 				System.out.println("z is " + z);
-				
+
 			}
-		}
-		else System.out.println("x is " + x);
+		} else
+			System.out.println("x is " + x);
 	}
 
 }

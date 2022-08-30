@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class As {
 public static void main(String[] args) {
 	Scanner input =new Scanner(System.in);
-	System.out.println("i yi gir :");
+	System.out.println("i , k , j' yi gir :");
 	int i = input.nextInt();
 	int k = input.nextInt();
 	int j = input.nextInt();

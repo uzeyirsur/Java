@@ -5,8 +5,9 @@ public static void main(String[] args) {
 	double x = 1;
 	if ((x-5) < 4.5 ) {
 	System.out.println((x-5) < 4.5);
+	System.out.println((x - 5) > 4.5);
 	}
 	
-	System.out.println((x - 5) > 4.5);
+	
 }
 }

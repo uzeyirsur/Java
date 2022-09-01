@@ -1,6 +1,6 @@
 package chapters.chapter03.Exercises_03;
 import java.util.Scanner;
-public class Exercises_03_01 {
+public class Exercise_03_01 {
 public static void main(String[] args) {
 	Scanner input = new Scanner(System.in);
 	System.out.println("Enter a value for a, b and c:  ");

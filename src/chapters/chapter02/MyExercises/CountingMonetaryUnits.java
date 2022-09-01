@@ -13,7 +13,7 @@ public class CountingMonetaryUnits {
 		remainingAmount = remainingAmount % 100;
 
 		int numberOfQuarters = remainingAmount / 25;
-		remainingAmount = remainingAmount % 25;
+		remainingAmount = remainingAmount % 2
 
 		int numberOfDimes =remainingAmount / 10 ;
 		remainingAmount %= 10;

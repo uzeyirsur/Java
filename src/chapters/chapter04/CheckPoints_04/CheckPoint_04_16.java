@@ -38,6 +38,8 @@ public class CheckPoint_04_16 {
 		System.out.println(s1.contains(s2));
 		
 		System.out.println("\t Wel \t".trim() );
+		
+		
 	}
 
 }

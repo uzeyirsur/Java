@@ -13,7 +13,7 @@ public class Exercise_02_06 {
 		int digit100 = number / 100;
 		int digit10 = (number / 10) % 10;
 		int digit1 = number % 10;
-		System.out.println("The sum of the digits is " + ( digit1000 + digit100 + digit10 + digit1));
+		System.out.println("The sum of the digits is " + (digit1000 + digit100 + digit10 + digit1));
 
 	}
 }

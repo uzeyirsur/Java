@@ -1,6 +1,6 @@
-package chapter01.questions;
+package chapters.chapter_01;
 
-public class Q4 {public static void main(String[] args) {
+public class Exercise_01_04 {public static void main(String[] args) {
 	System.out.println("a     a^2     a^3");
 	System.out.println("1     1       1");
 	System.out.println("2     4       8");

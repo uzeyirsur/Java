@@ -44,9 +44,9 @@ public class Exercise_03_24 {
 
 			} else if (rank == 12) {
 				System.out.println("The card you picked is King of Clubs");
-				
 
-			}break;
+			}
+			break;
 		case 1:
 			if (rank == 0) {
 				System.out.println("The card you picked is Ace of Diamond");
@@ -85,9 +85,9 @@ public class Exercise_03_24 {
 
 			} else if (rank == 12) {
 				System.out.println("The card you picked is King of Diamond");
-				
 
-			}break;
+			}
+			break;
 		case 2:
 			if (rank == 0) {
 				System.out.println("The card you picked is Ace of Hearts");
@@ -126,9 +126,9 @@ public class Exercise_03_24 {
 
 			} else if (rank == 12) {
 				System.out.println("The card you picked is King of Hearts");
-			
 
-			}break;
+			}
+			break;
 		case 3:
 			if (rank == 0) {
 				System.out.println("The card you picked is Ace of Spades");

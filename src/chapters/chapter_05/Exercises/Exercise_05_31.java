@@ -9,7 +9,7 @@ public static void main(String[] args) {
 	double annualpercentage= input.nextDouble();
 	System.out.println("Enter the number of months:");
 	double months = input.nextDouble();
-	System.out.println("Mounth\t\tCD Value");
+	System.out.println("Month\t\tCD Value");
 	for (int i = 1; i <= months; i++) {
 		amount = amount + (amount * annualpercentage /1200);
 		

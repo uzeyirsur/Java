@@ -12,6 +12,7 @@ public class Exercise_05_51 {
 		int length1 = s1.length();
 		int length2 = s2.length();
 		int length = Math.min(length1, length2);
+		
 		for (int i = 0; i < length; i++) {
 			String pre1 = s1.substring(i, i + 1);
 			String pre2 = s2.substring(i, i + 1);

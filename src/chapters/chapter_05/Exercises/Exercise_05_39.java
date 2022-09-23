@@ -1,19 +1,20 @@
 package chapters.chapter_05.Exercises;
 
 public class Exercise_05_39 {
-	public static void main(String[] args) {
-		int heads = 0;
-		int tails = 0;
-		for (int i = 0; i < 1000000; i++) {
-			int a = (int) (Math.random() * 2);
-			if (a == 0) {
-				heads++;
-			} else {
-				tails++;
-			}
-
+public static void main(String[] args) {
+	double commission = 0;
+	double sales = 0;
+	while (commission < 25000) {
+		
+		if (sales <= 5000) {
+			commission = sales * 0.08;
+		}else if (5000 < sales && sales <= 10000) {
+			commission = 5000 * 0.08 + (sales - 5000) * 0.1;
+		}else if (sales >10000) {
+			commission = 5000 * 0.08 + 5000 * 0.1 + (sales - 10000) * 0.12;
 		}
-		System.out.println("Total Heads\t\tTotal Tails");
-		System.out.println(heads + "\t\t\t" + tails);
+		sales += 0.1;
 	}
+	System.out.println("Minimum sales you have to generate in order to make $30.000 with your base salary is $" + sales);
+}
 }

@@ -11,7 +11,7 @@ public class Exercise_05_37 {
 		while (decimalValue != 0) {
 			remainder = decimalValue % 2;
 			decimalValue /= 2;
-			binary += "" + remainder;
+			binary += remainder;
 		}
 		int length = binary.length();
 		int i = length - 1;

@@ -7,7 +7,7 @@ public class Exercise_06_06 {
 
     public static void displayPattern(int n) {
         for (int i = 1; i <= n; i++) {
-            for (int j = n; j >= 0; j--) {
+            for (int j = n - i; j > 0; j--) {
                 System.out.print("   ");
             }
             for (int k = i; k > 0; k--) {

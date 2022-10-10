@@ -1,6 +1,6 @@
 package chapters.chapter07.CheckPoints_07;
 
-public class CheckPoints_07_05 {
+public class CheckPoint_07_05 {
     public static void main(String[] args) {
         /*
         int i = new int(30); /invalid

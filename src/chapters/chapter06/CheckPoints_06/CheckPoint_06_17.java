@@ -1,6 +1,6 @@
 package chapters.chapter06.CheckPoints_06;
 
-public class CheckPoint_17 {
+public class CheckPoint_06_17 {
     public static void main(String[] args) {
         double z = m(4, 5);
         double a = m(4, 5.4);

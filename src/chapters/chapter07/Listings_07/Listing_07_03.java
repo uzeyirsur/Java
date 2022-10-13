@@ -1,4 +1,4 @@
-package chapters.chapter07.CheckPoints_07;
+package chapters.chapter07.Listings_07;
 
 public class Listing_07_03 {
     public static void main(String[] args) {

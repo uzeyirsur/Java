@@ -12,12 +12,13 @@ public class Exercise_07_03 {
             numbers[i] = input.nextInt();
             i++;
         } while (numbers[i - 1] != 0);
-        int counts[] = counts(numbers);
+
+          int[] counts = counts(numbers);
         for (int j = 0; j < counts.length; j++) {
 
             if (counts[j] != 0) {
                 System.out.print(j + " occurs " + counts[j] );
-                if(counts[numbers[j]] == 1){
+                if(counts[j] == 1){
                     System.out.println(" time.");
                 }else{
                     System.out.println(" times.");

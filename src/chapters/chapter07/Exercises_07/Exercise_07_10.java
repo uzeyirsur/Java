@@ -13,14 +13,14 @@ public class Exercise_07_10 {
         System.out.println(indexOfSmallestElement(numbers));
     }
     public static int indexOfSmallestElement(double[] numbers){
-      int minElement = 0;
-        double min = numbers[0];
+      int minIndex = -1;
+        double minValue = numbers[0];
         for (int i = 0; i < numbers.length ; i++) {
-            if(numbers[i] < min){
-               min = numbers[i];
-                minElement = i;
+            if(numbers[i] < minValue){
+               minValue = numbers[i];
+                minIndex = i;
             }
         }
-        return minElement;
+        return minIndex;
     }
 }

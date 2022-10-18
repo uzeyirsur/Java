@@ -5,33 +5,30 @@ import java.util.Scanner;
 public class Exercise_07_18 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter the number of integers : ");
-        int numOfInts = input.nextInt();
-        int[] list = new int[numOfInts];
-        System.out.println("Enter " + list.length + " numbers : ");
-        for (int i = 0; i < list.length; i++) {
-            list[i] = input.nextInt();
+        System.out.println("Enter ten double numbers:");
+        double[] numbers = new double[10];
+        for (int i = 0; i < numbers.length; i++) {
+            numbers[i] = input.nextDouble();
         }
-        if (isSorted(list)) {
-            System.out.println("The list is already sorted");
-        } else {
-            System.out.println("The list is not sorted");
+        double[] sortedNumbers = sortNumbers(numbers);
+        for (int i = 0; i < sortedNumbers.length; i++) {
+            System.out.print(sortedNumbers[i] + " ");
         }
-
     }
 
-    public static boolean isSorted(int[] list) {
-        for (int i = 0; i < list.length - 1; i++) {
-            for (int j = i + 1; j < list.length; j++) {
-                if (list[i] >= list[j]) {
-                    return false;
+    public static double[] sortNumbers(double[] numbers) {
+        double temp;
+        for (int i = 0; i < numbers.length; i++) {
+            for (int j = 0; j < numbers.length - 1; j++) {
+                if (numbers[j] > numbers[j + 1]) {
+                    temp = numbers[j];
+                    numbers[j] = numbers[j + 1];
+                    numbers[j + 1] = temp;
                 }
             }
         }
-        return true;
 
+        return numbers;
     }
+
 }
-
-
-

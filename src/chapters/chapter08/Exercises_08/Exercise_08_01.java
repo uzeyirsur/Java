@@ -1,9 +1,9 @@
 /*Prompt user to enter numbers  length  of 3 * 4 num.length
   Save numbers to [3] [4] array
   put arrays yo sumColumn method
-  This method find each element in a row and sum of them.  with nested for loop
-  When number of row ends. Look for second row...forth.
-  Every time when sum all the elements in a row ,print the results.
+  This method find each element in a column and sum of them.  with nested for loop
+  When number of column ends. Look for second column...forth row etc..
+  Every time when sum all the elements in a column,print the results.
  */
 
 package chapters.chapter08.Exercises_08;

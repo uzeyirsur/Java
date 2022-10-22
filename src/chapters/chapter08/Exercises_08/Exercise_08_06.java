@@ -20,21 +20,45 @@ public class Exercise_08_06 {
             }
         }
         double[][] sum = multiplyMatrix(a, b);
-        for (int i = 0; i < sum.length; i++) {
+        displayResult(a, b, sum);
+
+
+    }
+
+    private static void displayResult(double[][] a, double[][] b, double[][] sum) {
+        for (int i = 0; i < a.length; i++) {
+            for (int j = 0; j < a[i].length; j++) {
+                System.out.print(a[i][j] + " ");
+            }
+            if (i == 1) {
+                System.out.print("\t*\t ");
+            } else {
+                System.out.print("\t\t ");
+            }
+            for (int j = 0; j < b[i].length; j++) {
+                System.out.print(b[i][j] + " ");
+            }
+            if (i == 1) {
+                System.out.print("\t=\t ");
+            } else {
+                System.out.print("\t\t ");
+            }
             for (int j = 0; j < sum[i].length; j++) {
-                System.out.print(sum[i][j] + " ");
+                System.out.printf("%2.1f  ", sum[i][j]);
             }
             System.out.println();
         }
     }
-                                        // NOT FINISHED YET
-    public static double[][] multiplyMatrix(double[][] a, double[][] b){
-        double[][] sum = new double[a.length][a[0].length];
+
+    public static double[][] multiplyMatrix(double[][] a, double[][] b) {
+        double[][] result = new double[a.length][a[0].length];
         for (int i = 0; i < a.length; i++) {
             for (int j = 0; j < a[i].length; j++) {
-                sum[i][j] += a[i][j] * b[j][i];
+                for (int k = 0; k < a.length; k++) {
+                    result[i][j] += a[i][k] * b[k][j];
+                }
             }
         }
-        return sum;
+        return result;
     }
 }

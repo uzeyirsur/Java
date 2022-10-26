@@ -6,17 +6,17 @@ public class Exercise_03_25 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		System.out.println("Enter a value for x1 and y1: ");
-		double x1 = input.nextInt();
-		double y1 = input.nextInt();
+		double x1 = input.nextDouble();
+		double y1 = input.nextDouble();
 		System.out.println("Enter a value for x2 and y2: ");
-		double x2 = input.nextInt();
-		double y2 = input.nextInt();
+		double x2 = input.nextDouble();
+		double y2 = input.nextDouble();
 		System.out.println("Enter a value for x3 and y3: ");
-		double x3 = input.nextInt();
-		double y3 = input.nextInt();
+		double x3 = input.nextDouble();
+		double y3 = input.nextDouble();
 		System.out.println("Enter a value for x4 and y4: ");
-		double x4 = input.nextInt();
-		double y4 = input.nextInt();
+		double x4 = input.nextDouble();
+		double y4 = input.nextDouble();
 
 		double x;
 		double y;

@@ -28,9 +28,9 @@ double [] interSectPoint = getIntersectingPoint(points);
         double[] interSectPoint = new double[2];
 
         double a = p[0][1] - p[1][1];
-        double b = p[1][0] - p[0][0];
+        double b = p[0][0] - p[1][0];
         double c = p[2][1] - p[3][1];
-        double d = p[3][0] - p[2][0];
+        double d = p[2][0] - p[3][0];
         double e = (p[0][1] - p[1][1]) * p[0][0] - (p[0][0] - p[1][0]) * p[0][1];
         double f = (p[2][1] - p[3][1]) * p[2][0] - (p[2][0] - p[3][0]) * p[2][1];
 

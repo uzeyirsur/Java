@@ -22,16 +22,20 @@ class SimpleCircle {
     SimpleCircle() {
         radius = 1;
     }
-    SimpleCircle(double newRadius){
+
+    SimpleCircle(double newRadius) {
         radius = newRadius;
     }
-    double getArea(){
+
+    double getArea() {
         return radius * radius * Math.PI;
     }
-    double getPerimeter(){
+
+    double getPerimeter() {
         return 2 * radius * Math.PI;
     }
-    void setRadius(double newRadius){
+
+    void setRadius(double newRadius) {
         radius = newRadius;
     }
 }

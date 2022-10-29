@@ -5,13 +5,13 @@ import java.util.Scanner;
 public class Exercise_08_24 {
     public static void main(String[] args) {
         int grid[][] = readASolution();
-        if (checkRow(grid) && checkColumn(grid) && check3by3box(grid)) {
+        if (isValid(grid)) {
             System.out.println("Valid solution");
         } else {
             System.out.println("Invalid solution");
         }
     }
-                                // NOT FINISHED YET
+
     public static int[][] readASolution() {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter a Sudoku puzzle solution:");
@@ -25,40 +25,39 @@ public class Exercise_08_24 {
         return grid;
     }
 
-    public static boolean checkRow(int[][] grid) {
-        for (int i = 0; i < grid.length; i++) {
-            for (int j = 0; j < grid[i].length - 1; j++) {
-                for (int k = j + 1; k < grid[i].length; k++) {
-                    if (grid[i][j] == grid[i][k]) {
-                        return false;
-                    }
+    public static boolean isValid(int[][] grid) {
+        for (int i = 0; i < 9; i++) {
+            for (int j = 0; j < 9; j++) {
+                if (grid[i][j] < 1 || grid[i][j] > 9 || !isValid(i, j, grid)) {
+                    return false;
                 }
             }
         }
         return true;
     }
-
-    public static boolean checkColumn(int[][] grid) {
-        for (int i = 0; i < grid[0].length; i++) {
-            for (int j = 0; j < grid.length - 1; j++) {
-                for (int k = j + 1; k < grid.length; k++) {
-                    if(grid[i][j]== grid[i][k]){
-                        return false;
-                    }
-                }
+    public static boolean isValid(int i, int j, int[][] grid){
+        for (int col = 0; col < 9; col++) {
+            if(col !=j && grid[i][col] == grid[i][j]){
+                return false;
             }
         }
-        return true;
-    }
-
-    public static boolean check3by3box(int[][] grid) {
-        for (int i =0, row= (i/3); row < (i / 3) * 3 + 3; i++,row++) {
-            for (int j = 0,col =(j/3) * 3; col < (j / 3) * 3 + 3; j++,col++) {
-                for (int k = j + 1,col2=(j/3) * 3; col2 <(j /3) * 3 ; col2++) {
-
+        for (int row = 0; row < 9; row++) {
+            if (row != i && grid[row][j] == grid[i][j]){
+                return false;
+            }
+        }
+        for (int row = (i / 3) * 3; row < (i / 3) * 3 + 3; row++) {
+            for (int col = (j / 3) * 3; col < (j / 3) * 3 + 3; col++) {
+                if(row != i && col != j && grid[row][col] == grid[i][j]){
+                    return false;
                 }
             }
         }
         return true;
     }
 }
+
+
+
+
+

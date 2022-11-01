@@ -21,9 +21,7 @@ public class Listing01 {
 class SimpleCircle {
     double radius;
 
-    SimpleCircle() {
-        radius = 1;
-    }
+    SimpleCircle() {radius = 1;}
 
     SimpleCircle(double newRadius) {
         radius = newRadius;

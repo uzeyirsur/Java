@@ -13,7 +13,9 @@ public class Listing01 {
 
         circle2.radius = 100;
         System.out.println("The area of the circle of radius " + circle2.radius + " is " + circle2.getArea());
+
     }
+
 }
 
 class SimpleCircle {

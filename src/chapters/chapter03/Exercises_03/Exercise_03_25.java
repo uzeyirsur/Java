@@ -32,7 +32,7 @@ public class Exercise_03_25 {
 		y = (a * f - e * c) / (a * d - b * c);
 
 		if (a * d - b * c == 0) {
-			System.out.println("The two lines are parralel");
+			System.out.println("The two lines are parallel");
 			System.exit(1);
 		} else {
 			System.out.println("The intersecting point is at (" + x + " , " + y + ")");

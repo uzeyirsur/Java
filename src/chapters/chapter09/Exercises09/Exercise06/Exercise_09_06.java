@@ -5,6 +5,9 @@ public class Exercise_09_06 {
         StopWatch stopWatch = new StopWatch();
 
         int [] numbers = new int[100_000];
+        for (int i = 0; i < numbers.length; i++) {
+            numbers[i] =(int) (Math.random() * 100_000);
+        }
         stopWatch.start();
         java.util.Arrays.sort(numbers);
         stopWatch.stop();

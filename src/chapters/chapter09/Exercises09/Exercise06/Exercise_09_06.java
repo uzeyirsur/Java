@@ -11,8 +11,9 @@ public class Exercise_09_06 {
         stopWatch.start();
         java.util.Arrays.sort(numbers);
         stopWatch.stop();
+
         System.out.println("Start: " + stopWatch.getStartTime() );
-        System.out.println("End: " + stopWatch.getEndTime());
+        System.out.println("End:   " + stopWatch.getEndTime());
         System.out.println("Execution time: " + stopWatch.getElapsedTime());
     }
 }

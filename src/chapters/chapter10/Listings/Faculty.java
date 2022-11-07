@@ -1,6 +1,6 @@
 package chapters.chapter10.Listings;
 
 public class Faculty {
-    private Course[] courseList;
-    public void addCourse(Course c){}
+    private Course2[] courseList;
+    public void addCourse(Course2 c){}
 }

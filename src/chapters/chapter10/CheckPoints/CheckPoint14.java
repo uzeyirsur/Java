@@ -8,5 +8,7 @@ public class CheckPoint14 {
         System.out.println("x is " + x);
         System.out.println("y is " + y);
         System.out.println("z is " + z);
+
+        }
     }
-}
+

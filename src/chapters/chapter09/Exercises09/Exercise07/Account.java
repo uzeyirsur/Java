@@ -9,7 +9,7 @@ public class Account {
     Date dateCreated;
 
     public Account() {
- dateCreated = new Date();
+        dateCreated = new Date();
     }
 
     public Account(int newId, double newBalance) {
@@ -53,10 +53,12 @@ public class Account {
     public double getMonthlyInterest() {
         return balance * (this.getMonthlyInterestRate() / 100);
     }
-public void withdraw(double amount){
+
+    public void withdraw(double amount) {
         balance -= amount;
-}
-public void deposit(double amount){
+    }
+
+    public void deposit(double amount) {
         balance += amount;
-}
+    }
 }

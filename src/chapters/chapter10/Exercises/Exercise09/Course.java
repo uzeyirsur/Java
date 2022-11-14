@@ -35,17 +35,22 @@ public class Course {
     }
 
     public void dropStudent(String student) {
-        for (int i = 0; i <students.length - 1; i++) {
+        for (int i = 0; i <numberOfStudents; i++) {
             if(students[i].equals(student)){
-            students[i] = students[i + 1];
+            students[i] = null;
+         break;
+         //TODO
             }
-            numberOfStudents--;
+
+
         }
+
     }
     public void clear(){
             students = new String[100];
             numberOfStudents = 0;
 
     }
+
 }
 

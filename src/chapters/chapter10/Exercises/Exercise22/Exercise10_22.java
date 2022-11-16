@@ -8,7 +8,8 @@ public class Exercise10_22 {
         System.out.println(s.toLowerCase().toString());
         System.out.println(s.toString());
         System.out.println(s.equals(new MyString1(new char[]{'a', 'b', 'c', 'd', 'e'})));
-
         System.out.println(MyString1.valueOf(123));
+
+
     }
 }

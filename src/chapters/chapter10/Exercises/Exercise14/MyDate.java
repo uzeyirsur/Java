@@ -6,7 +6,7 @@ public class MyDate {
     private int year;
     private int month;
     private int day;
-    MyDate(){
+    public MyDate(){
         this(System.currentTimeMillis());
     }
     MyDate(long elapsedTime){

@@ -26,6 +26,6 @@ class T extends Circle {
 
     @Override
     public double getArea() {
-        return super.getArea() * length;
+        return getArea() * length;
     }
 }

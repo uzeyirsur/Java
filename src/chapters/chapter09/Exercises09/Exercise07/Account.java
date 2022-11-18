@@ -61,4 +61,9 @@ public class Account {
     public void deposit(double amount) {
         balance += amount;
     }
+
+    public String toString() {
+        return "Balance: " + getBalance() + "\nMonthly Interest: " + getMonthlyInterest() + "\nCreation Date: " + getDateCreated();
+
+    }
 }

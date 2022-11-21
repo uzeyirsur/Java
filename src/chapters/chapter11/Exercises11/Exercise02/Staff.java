@@ -1,6 +1,6 @@
 package chapters.chapter11.Exercises11.Exercise02;
 
-import chapters.chapter10.Exercises.Exercise14.MyDate;
+import chapters.chapter10.Exercises10.Exercise14.MyDate;
 
 public class Staff extends Employee {
     private String title;

@@ -1,6 +1,6 @@
 package chapters.chapter11.Exercises11.Exercise06;
 
-import chapters.chapter10.Listings.Loan;
+import chapters.chapter10.Listings10.Loan;
 import javafx.scene.shape.Circle;
 
 import java.util.ArrayList;

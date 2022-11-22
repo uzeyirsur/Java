@@ -14,12 +14,12 @@ public class CheckPoint09 {
 
 
         Double.toString(23);
-       //or
+        //or
         String s2 = 23.2 + "";
 
 
-       Double.valueOf("23.1");
-       //or
+        Double.valueOf("23.1");
+        //or
         Double.parseDouble("23.1");
 
     }

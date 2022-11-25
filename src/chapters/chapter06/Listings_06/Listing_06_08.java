@@ -7,9 +7,9 @@ public class Listing_06_08 {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a hex number: ");
         String hex = input.nextLine();
-        System.out.println("The decimal value for hex number" + hex + " is " + hextoDecimal(hex.toUpperCase()));
+        System.out.println("The decimal value for hex number" + hex + " is " + hexToDecimal(hex.toUpperCase()));
     }
-    public static int hextoDecimal(String hex){
+    public static int hexToDecimal(String hex){
         int decimalValue = 0;
         for (int i = 0; i < hex.length(); i++){
             char hexChar = hex.charAt(i);

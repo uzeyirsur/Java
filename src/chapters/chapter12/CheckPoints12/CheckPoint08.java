@@ -1,6 +1,6 @@
 package chapters.chapter12.CheckPoints12;
 
-public class CheckPoint12_08 {
+public class CheckPoint08 {
     public static void main(String[] args) {
 /*
 Object o = new Object();

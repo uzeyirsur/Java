@@ -11,24 +11,29 @@ public class Exercise12_21 {
         PrintWriter output = new PrintWriter(file);
         output.print("Ada Ali Buse Cengiz Deniz Zeynep Burhan");
         output.close();
+
         if (!file.exists()) {
             System.out.println("File does not exists");
             return;
         }
+
         String s1 = "";
         String s2 = "";
         boolean isSorted = true;
+
         try (
                 Scanner input = new Scanner(file)
         ) {
+
             int count = 0;
+
             while (input.hasNext() && isSorted) {
                 if (count % 2 == 0) {
                     s1 = input.next();
                     s2 = input.next();
                     count++;
-                }else{
-                    s1 =s2;
+                } else {
+                    s1 = s2;
                     s2 = input.next();
                 }
                 if (s1.compareTo(s2) > 0) {

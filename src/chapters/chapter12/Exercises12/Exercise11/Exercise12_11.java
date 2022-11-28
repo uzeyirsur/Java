@@ -28,11 +28,10 @@ public class Exercise12_11 {
             }
 
         }
-        try (
-                PrintWriter output = new PrintWriter(file);
-        ) {
-            output.print(s2);
-        }
+
+        PrintWriter output = new PrintWriter(file);
+        output.print(s2);
+        output.close();
 
 
     }

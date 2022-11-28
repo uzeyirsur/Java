@@ -1,6 +1,5 @@
 package chapters.chapter12.Exercises12.Exercise16;
 
-import com.sun.scenario.effect.impl.prism.PrTexture;
 
 import java.io.File;
 import java.io.PrintWriter;
@@ -18,19 +17,17 @@ public class Exercise12_16 {
             return;
         }
 
-        String s1 = "";
         StringBuilder s2 = new StringBuilder();
         try (
-                Scanner input = new Scanner(file);
-                PrintWriter output = new PrintWriter(file)
+                Scanner input = new Scanner(file)
         ) {
             while (input.hasNext()) {
-                s1 = input.nextLine() +"\n";
-              s2.append(s1.replaceAll(args[1], args[2]));
+                String s1 = input.nextLine();
+                s2.append(s1.replaceAll(args[1], args[2]) + "\n");
             }
-            output.print(s2);
-
-
         }
+        PrintWriter output = new PrintWriter(file);
+        output.print(s2);
+        output.close();
     }
 }

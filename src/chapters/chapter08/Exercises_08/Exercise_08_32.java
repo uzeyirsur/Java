@@ -1,3 +1,4 @@
+
 package chapters.chapter08.Exercises_08;
 
 import java.util.Scanner;
@@ -41,4 +42,3 @@ public class Exercise_08_32 {
             return Math.sqrt(s * (s - side1) * (s - side2) * (s - side3));
         }
     }
-

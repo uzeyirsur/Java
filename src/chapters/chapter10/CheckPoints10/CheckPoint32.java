@@ -1,3 +1,4 @@
+
 package chapters.chapter10.CheckPoints10;
 
 public class CheckPoint32 {
@@ -14,4 +15,3 @@ public class CheckPoint32 {
         builder.append(" and HTML");
     }
 }
-

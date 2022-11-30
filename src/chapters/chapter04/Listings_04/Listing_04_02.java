@@ -1,3 +1,4 @@
+
 package chapters.chapter04.Listings_04;
 import java.util.Scanner;
 public class Listing_04_02 {

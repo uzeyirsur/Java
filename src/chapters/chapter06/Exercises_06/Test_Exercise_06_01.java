@@ -1,3 +1,4 @@
+
 package chapters.chapter06.Exercises_06;
 
 public class Test_Exercise_06_01 {

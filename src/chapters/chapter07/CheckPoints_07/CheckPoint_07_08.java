@@ -1,3 +1,4 @@
+
 package chapters.chapter07.CheckPoints_07;
 
 public class CheckPoint_07_08 {
@@ -30,4 +31,3 @@ int index = (int) (Math.random() * numbers.length);
 double[] newNumbers = {3.5,5.5,4.52,5.6};
         }
     }
-

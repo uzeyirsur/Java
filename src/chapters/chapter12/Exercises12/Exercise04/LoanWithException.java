@@ -1,3 +1,4 @@
+
 package chapters.chapter12.Exercises12.Exercise04;
 
 public class LoanWithException {
@@ -87,7 +88,3 @@ public class LoanWithException {
         return "Loan Amount: " + loanAmount + "\nTotalPayment: " + getTotalPayment();
     }
 }
-
-
-
-

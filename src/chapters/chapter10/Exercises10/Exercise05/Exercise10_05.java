@@ -1,3 +1,4 @@
+
 package chapters.chapter10.Exercises10.Exercise05;
 
 import chapters.chapter10.Listings10.Listing10_08.StackOfIntegers;

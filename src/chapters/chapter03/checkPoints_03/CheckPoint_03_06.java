@@ -1,3 +1,4 @@
+
 package chapters.chapter03.checkPoints_03;
 import java.util.Scanner;
 public class CheckPoint_03_06 {

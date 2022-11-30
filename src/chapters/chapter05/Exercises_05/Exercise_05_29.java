@@ -1,3 +1,4 @@
+
 package chapters.chapter05.Exercises_05;
 
 import java.util.Scanner;
@@ -199,6 +200,3 @@ for (int m = 1; m <= 12; m++ ) {
 			
 			}
 		}
-	
-
-

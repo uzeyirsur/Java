@@ -1,3 +1,4 @@
+
 package chapters.chapter05.Exercises_05;
 
 import java.util.Scanner;
@@ -29,6 +30,3 @@ System.out.println(name1 + " has the highest score " + max);
 System.out.println(name2 + " hast the second highest score " + max2);
 	}
 }
-
-
-

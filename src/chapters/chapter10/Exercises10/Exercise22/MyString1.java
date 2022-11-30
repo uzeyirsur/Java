@@ -1,3 +1,4 @@
+
 package chapters.chapter10.Exercises10.Exercise22;
 
 public class MyString1 {

@@ -1,3 +1,4 @@
+
 package chapters.chapter10.CheckPoints10;
 
 public class CheckPoint17 {
@@ -8,4 +9,3 @@ public class CheckPoint17 {
         System.out.println(s2);
     }
 }
-

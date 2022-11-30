@@ -1,3 +1,4 @@
+
 package chapters.chapter07.CheckPoints_07;
 
 public class CheckPoint_07_12 {
@@ -25,4 +26,3 @@ public class CheckPoint_07_12 {
 
     }
 }
-

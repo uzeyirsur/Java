@@ -1,3 +1,4 @@
+
 package chapters.chapter10.Listings10;
 
 public class Loan {
@@ -73,6 +74,3 @@ public class Loan {
         return "Loan Amount: " + loanAmount + "\nTotalPayment: " + getTotalPayment();
     }
 }
-
-
-

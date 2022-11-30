@@ -1,3 +1,4 @@
+
 package weeks.week_04;
 
 import java.util.Scanner;
@@ -94,4 +95,3 @@ public class FallingASleep {
 		System.out.println("\nEvet tüm görevler tamamlandı artık uyuabilirsin.");
 	}
 }
-

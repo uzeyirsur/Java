@@ -1,3 +1,4 @@
+
 package chapters.chapter12.Exercises12.Exercise05;
 
 public class IllegalTriangleException extends Exception{

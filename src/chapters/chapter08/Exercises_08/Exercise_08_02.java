@@ -1,3 +1,4 @@
+
 /*
 1- Prompt user to enter 4-by-4 matrix row by row
 2-Save this matrix in an 4-4 array.
@@ -34,4 +35,3 @@ public class Exercise_08_02 {
         return sum;
         }
     }
-

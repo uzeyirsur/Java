@@ -1,3 +1,4 @@
+
 package chapters.chapter08.Listings_08;
 
 import java.util.Scanner;
@@ -52,4 +53,3 @@ public class Listing_08_04 {
         return true;
     }
 }
-

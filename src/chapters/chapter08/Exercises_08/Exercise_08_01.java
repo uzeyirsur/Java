@@ -1,3 +1,4 @@
+
 /*Prompt user to enter numbers  length  of 3 * 4 num.length
   Save numbers to [3] [4] array
   put arrays yo sumColumn method

@@ -1,3 +1,4 @@
+
 package chapters.chapter12.CheckPoints12;
 
 import java.util.Scanner;

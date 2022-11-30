@@ -1,3 +1,4 @@
+
 package chapters.chapter04.Exercises_04;
 import java.util.Scanner;
 
@@ -87,6 +88,3 @@ day += 16;
  System.out.println("\nYour birthday is " + day + "!");
  }
  }
-
-
-

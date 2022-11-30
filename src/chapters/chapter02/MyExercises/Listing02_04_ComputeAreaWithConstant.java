@@ -1,3 +1,4 @@
+
 package chapters.chapter02.MyExercises;
 import java.util.Scanner;
 public class Listing02_04_ComputeAreaWithConstant {

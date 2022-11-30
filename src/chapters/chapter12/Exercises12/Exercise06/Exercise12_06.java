@@ -1,3 +1,4 @@
+
 package chapters.chapter12.Exercises12.Exercise06;
 
 import java.util.Scanner;

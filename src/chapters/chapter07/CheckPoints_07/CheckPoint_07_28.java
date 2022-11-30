@@ -1,3 +1,4 @@
+
 package chapters.chapter07.CheckPoints_07;
 
 public class CheckPoint_07_28 {
@@ -10,4 +11,3 @@ public class CheckPoint_07_28 {
         System.out.println(java.util.Arrays.equals(list1, list2));
     }
 }
-

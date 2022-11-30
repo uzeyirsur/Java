@@ -1,3 +1,4 @@
+
 package weeks.week_02;
 
 public class Assignment02 {

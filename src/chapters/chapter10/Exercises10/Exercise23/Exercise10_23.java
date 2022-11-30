@@ -1,3 +1,4 @@
+
 package chapters.chapter10.Exercises10.Exercise23;
 
 public class Exercise10_23 {

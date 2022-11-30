@@ -1,3 +1,4 @@
+
 package weeks.week_15;
 
 public class Animal {
@@ -48,4 +49,3 @@ public class Animal {
         return hasFlyingSkills;
     }
 }
-

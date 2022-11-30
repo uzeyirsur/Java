@@ -1,3 +1,4 @@
+
 package chapters.chapter12.Exercises12.Exercise21;
 
 import java.io.File;
@@ -8,9 +9,6 @@ import java.util.Scanner;
 public class Exercise12_21 {
     public static void main(String[] args) throws Exception {
         File file = new File("SortedStrings.txt");
-        PrintWriter output = new PrintWriter(file);
-        output.print("Ada Ali Buse Cengiz Deniz Zeynep Burhan");
-        output.close();
 
         if (!file.exists()) {
             System.out.println("File does not exists");
@@ -24,7 +22,6 @@ public class Exercise12_21 {
         try (
                 Scanner input = new Scanner(file)
         ) {
-
             int count = 0;
 
             while (input.hasNext() && isSorted) {

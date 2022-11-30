@@ -1,3 +1,4 @@
+
 package chapters.chapter10.Exercises10.Exercise13;
 
 public class MyRectangle2D {

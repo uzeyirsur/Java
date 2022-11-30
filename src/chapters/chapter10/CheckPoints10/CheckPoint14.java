@@ -1,3 +1,4 @@
+
 package chapters.chapter10.CheckPoints10;
 
 public class CheckPoint14 {
@@ -11,4 +12,3 @@ public class CheckPoint14 {
 
         }
     }
-

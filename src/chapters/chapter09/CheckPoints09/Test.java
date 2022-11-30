@@ -1,3 +1,4 @@
+
 package chapters.chapter09.CheckPoints09;
 
 
@@ -18,4 +19,3 @@ public class Test {
             System.out.println(s);
         }
     }
-

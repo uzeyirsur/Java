@@ -1,3 +1,4 @@
+
 package chapters.chapter02.checkPoints02;
 import java.util.Scanner;
 public class CheckPoint_02_22 {

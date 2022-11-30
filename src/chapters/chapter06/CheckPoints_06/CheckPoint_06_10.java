@@ -1,3 +1,4 @@
+
 package chapters.chapter06.CheckPoints_06;
 
 public class CheckPoint_06_10 {
@@ -16,4 +17,3 @@ double result = method (1,10);
         return j;
     }
 }
-

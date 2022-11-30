@@ -1,3 +1,4 @@
+
 package chapters.chapter10.Exercises10.Exercise09;
 
 public class Course {
@@ -53,4 +54,3 @@ public class Course {
     }
 
 }
-

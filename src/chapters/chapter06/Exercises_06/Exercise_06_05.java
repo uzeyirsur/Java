@@ -1,3 +1,4 @@
+
 package chapters.chapter06.Exercises_06;
 import java.util.Scanner;
 public class Exercise_06_05 {

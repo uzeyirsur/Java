@@ -1,3 +1,4 @@
+
 package chapters.chapter11.Exercises11.Exercise01;
 
 public class GeometricObject {

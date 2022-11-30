@@ -1,3 +1,4 @@
+
 package chapters.chapter05.Exercises_05;
 
 import java.util.Scanner;
@@ -15,4 +16,3 @@ public static void main(String[] args) {
  
  }
 }
-

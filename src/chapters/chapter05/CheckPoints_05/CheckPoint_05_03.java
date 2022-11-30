@@ -1,3 +1,4 @@
+
 package chapters.chapter05.CheckPoints_05;
 
 public class CheckPoint_05_03 {
@@ -19,7 +20,3 @@ public static void main(String[] args) {
 	
 	
 	}
-	
-
-
-

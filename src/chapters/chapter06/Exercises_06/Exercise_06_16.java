@@ -1,3 +1,4 @@
+
 package chapters.chapter06.Exercises_06;
 
 public class Exercise_06_16 {
@@ -19,4 +20,3 @@ public class Exercise_06_16 {
         return numberOfDays;
     }
 }
-

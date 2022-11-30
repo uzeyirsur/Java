@@ -1,3 +1,4 @@
+
 package chapters.chapter08.Exercises_08;
 
 
@@ -25,4 +26,3 @@ public class Exercise_08_07 {
         return Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2) + Math.pow(z2 - z1, 2));
     }
 }
-

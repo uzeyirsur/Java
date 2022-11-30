@@ -1,3 +1,4 @@
+
 package chapters.chapter09.Exercises09.Exercise08;
 
 public class Fan {

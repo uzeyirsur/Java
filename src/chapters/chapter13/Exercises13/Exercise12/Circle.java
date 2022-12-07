@@ -1,21 +1,17 @@
-package chapters.chapter13.Exercises13.Exercise09;
+package chapters.chapter13.Exercises13.Exercise12;
 
-import java.util.Date;
 
-public class Circle extends GeometricObject implements Comparable<Circle> {
+public class Circle extends GeometricObject {
     private double radius;
 
     public Circle() {
     }
-
     public Circle(double radius) {
         this.radius = radius;
     }
-
     public Circle(String color, boolean filled, double radius) {
         super(color, filled);
         this.radius = radius;
-
     }
 
     public double getRadius() {
@@ -37,21 +33,8 @@ public class Circle extends GeometricObject implements Comparable<Circle> {
     }
 
     @Override
-    public int compareTo(Circle circle) {
-        if (this.radius < circle.radius) {
-            return -1;
-        } else if (this.radius == circle.radius) {
-            return 0;
-        } else {
-            return 1;
-        }
+    public String toString() {
+        return super.toString() + "\nRadius: " + radius + "\nArea: " + getArea() + "\nPerimeter: " + getPerimeter();
     }
 
-    @Override
-    public boolean equals(Object o) {
-        Circle circle = (Circle) o;
-        return this.radius == circle.radius;
-
-    }
 }
-

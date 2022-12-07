@@ -32,7 +32,7 @@ public class MyStack implements Cloneable{
     @Override
     public Object clone() throws CloneNotSupportedException{
         MyStack myStackClone = (MyStack) super.clone();
-        myStackClone.list = (ArrayList<Object>) list.clone();
+        myStackClone.list = (ArrayList<Object>) list.clone(); //TODO
         return myStackClone;
     }
 }
